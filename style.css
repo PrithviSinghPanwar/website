@@ -1,0 +1,853 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins','assistant','Kaushan+Scrip',sans-serif;
+}
+.header{
+    width: 100%;
+}
+.header-inner{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu-content{
+    width: 30%;
+}
+
+.menu-content ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-content ul li{
+    color: #5c1c4b;
+}
+.logo img{
+    width: 53%;
+}
+.search-bar{
+    width: 100%;
+    padding-top: 40px;
+}
+.center-row{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+}
+.left-img{
+    width: 70%;
+    height: 500px;
+    background: url(../images/india-holidays.jpg) center no-repeat ;
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-img h3{
+    font-size: 33px;
+    color: white;
+    padding-bottom: 10px;
+}
+.left-form{
+    display: flex;
+}
+.search{
+    width: 550px;
+    height: 50px;
+    padding-left: 20px;
+    background-color: #f8f9fa;
+    border: none;
+    
+}
+ input::placeholder{
+    font-size: 17px;
+    color: #212529;
+    opacity: 1;
+    
+   
+}
+.btn{
+    width: 80px;
+    height: 50px;
+    background-color: #5c1c4b;
+    border: none;
+    
+}
+.btn i{
+    color: white;
+    font-size: 21px;
+}
+.right-img{
+    width: 30%;
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+    background: url(../images/india-nepal-bhutan-tour.jpg) center ;
+    background-size: cover;
+}
+.rightback{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: end;
+    color: white;
+    font-family: 'Kaushan+Scrip';
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.5);;
+}
+.right-content{
+    padding-left: 20px;
+}
+.right-content h3{
+    width: 123px;
+    padding: 5px 5px;
+    font-size: 12px;
+    color: #212529;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f7f5ed;
+}
+.right-content h2{
+    margin-bottom: 20px;
+}
+.right-content p{
+    margin-bottom: 30px;
+}
+.about{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.about-content{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first-content{
+    width: 29%;
+    display: flex;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.first-content img{
+    padding-right: 16px;
+    width: 60px;
+    height: 60px;
+}
+.words h3{
+    font-size: 14px;
+    padding-bottom: 15px;
+
+}
+.words p{
+    color:  #212529;
+    line-height: 21px;
+}
+.desti{
+    width: 100%;
+    margin-top: 40px;
+}
+.desti-content{
+    width: 1320px;
+    margin: auto;
+   
+}
+.desti-content h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #212529;
+    padding-bottom: 20px;
+}
+.disti-img{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.disti-img1{
+    width: 23%;
+    position: relative;
+    background: url(../images/rajasthan-tour-packages.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.image1colour{
+    background-color: #00000094;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: end;
+    color: white;
+    border-radius: 15px;
+}
+.disti-img2{
+    width: 70%;
+    margin-left: 20px;
+}
+.distiimg2-row1{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.img2-1{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/kerala-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img2-2{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/sikkim-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img2-3{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/varanasi-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.img2-4{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/khajuraho-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.img2-5{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/karnataka-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.img2-6{
+    width: 34%;
+    height: 246px;
+    position: relative;
+    background: url(../images/varanasi-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.image2colour{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: end;
+    color: white;
+    border-radius: 15px;
+}
+.img1-content{
+    padding-left: 20px;
+
+}
+.img1-content h3{
+    font-size: 20px;
+    font-weight: 600;
+     
+}
+.img1-content h4{
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    align-items: center;
+    
+}
+.inter{
+    width: 1320px;
+    margin: auto;
+   
+   
+}
+.inter-row1{
+    display: flex;
+    gap: 25px;
+
+}
+.intr1-c1{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/india-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.intr1-c2{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/nepal-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.intr1-c3{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/bhutan-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.intr1-c4{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/maldives-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c5{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/sri-lanka-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c6{
+    width: 34%;
+    height: 200px;
+    position: relative;
+    background: url(../images/thailand-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.image3colour{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: end;
+    color: white;
+    border-radius: 15px;
+}
+.c1-content h3{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.them-bck{
+    width: 100%;
+    margin-top: 40px;
+    background-color: #faf9f9;
+    padding-bottom: 70px;
+}
+.bck-cntent{
+    width: 1320px;
+    margin: auto;
+   
+}
+.bck-cntent h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intr1-c7{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/wildlife-safari-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c8{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/in-depth-culture-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c9{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/religious-sites-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c10{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/romantic-getaway-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c11{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/fairs-and-festivals-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.intr1-c12{
+    width: 34%;
+    height: 250px;
+    position: relative;
+    background: url(../images/adventure-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.them-color{
+    padding-left: 20px;
+
+}
+.them-color h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+     
+}
+.them-color h4{
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 35px;
+    align-items: center;
+    
+}
+.picksback{
+    width: 100%;
+    background-color: #efeeee;
+    padding-bottom: 80px;
+}
+.pick-container{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.pick-box{
+    width: 25%;
+
+}
+.picks1{
+    width: 100%;
+    height: 175px;
+    background: url(../images/img_20231016000042_India-temples-tour.jpg) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.picks2{
+    width: 100%;
+    height: 175px;
+    background: url(../images/img_20231016000508_south-india-tour.jpg) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.picks3{
+    width: 100%;
+    height: 175px;
+    background: url(../images/img_20231016000841_india-tiger-tour.jpg) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.picks4{
+    width: 100%;
+    height: 175px;
+    background: url(../images/img_20231016001227_rajasthan-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.picks-content{
+    background-color: #fff;
+    font-family: sans-serif;
+    padding: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #f1f1f1;
+}
+.picks-content h4{
+    font-size: 21px;
+    font-weight: 400;
+}
+.bd{
+    height: 1px;
+    background-color: #efefef;
+    margin: 10px 0px;
+}
+.last-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px; 
+}
+.last-cont span{
+    padding-top: 20px;
+}
+.last-cont button{
+    background-color: #5c1c4b;
+    color: white;
+    width: 135px;
+    height: 44px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.best-seller{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 80px;
+}
+.best-middle{
+    width: 1320px;
+    margin: auto;
+}
+.best-middle h3{
+    font-size: 35px;
+    padding: 30px 0px;
+}
+.middle-row{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.middle-colum1{
+    width: 34%;
+    height: 240px;
+    position: relative;
+    background: url(../images/757_20231015115509_img_20231015235437_nepal-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.middle-colum2{
+    width: 34%;
+    height: 240px;
+    position: relative;
+    background: url(../images/754_20231013112817_img_20231013232801_india-varanasi-tour-package.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.middle-colum3{
+    width: 34%;
+    height: 240px;
+    position: relative;
+    background: url(../images/755_20231014084134_img_20231014203903_ranthambore-national-park-tour-packages.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.btnn{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #198754;
+    width: 134px;
+    height: 31px;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.colun-content{
+    padding-left: 20px;
+}
+.colun-content h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.colun-content h5{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #adb5bd;
+}
+
+.blogback{
+    width: 100%;
+    background-color: #faf9f9;
+    padding-bottom: 80px;
+}
+.blog-cont{
+    width: 1320px;
+    margin: auto;
+}
+.blog-cont h3{
+    font-size: 27px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.blog-cont p{
+    padding-bottom: 10px;
+}
+
+.pick-box{
+    width: 34%;
+
+}
+.blog1{
+    width: 100%;
+    height: 235px;
+    background: url(../images/img_20231016230756_10-best-luxury-hotels-in-india.jpg) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.blog2{
+    width: 100%;
+    height: 235px;
+    background: url(../images/img_20231016224056_10-best-golden-triangle-tour-packages.webp) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+.blog3{
+    width: 100%;
+    height: 235px;
+    background: url(../images/img_20231016231103_top-5-national-parks-in-madhya-pradesh-for-tiger-sightings.webp) center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+
+.blog-content{
+    font-family: sans-serif;
+    padding: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #dee2e6;
+    color: #4e5256;
+}
+.blog-content h4{
+    font-size: 25px;   
+}
+.blog-content p{
+    font-family: sans-serif;
+    padding-top: 20px;
+    line-height: 26px;
+    font-size: 17px;
+}
+.faq{
+    width: 100%;
+    background-color: white;
+}
+.faq-middle{
+    width: 1320px;
+    margin: auto;
+}
+.faq-middle h3{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.faq-head{
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.heading {
+    border: 1px solid #dee2e6;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.heading h3{
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #5c1c4b;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-left: 20px;
+    color: white;
+}
+.heading p{
+    color: #212529;
+    padding: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.secondlast{
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+}
+.secondlast form{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.textbox{
+    width: 500px;
+    padding: 13px;
+    border: 1px solid #dee2e6;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.final-button{
+    width: 160px;
+    background-color: #198754;
+    border: 1px solid #dee2e6;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.textbox::placeholder{
+    color: #212529;
+    font-size: 20px;
+    
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    padding: 20px 0px ;
+    
+}
+.footer-middle{
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+     
+}
+.mid-content{
+    display: flex;
+    justify-content: center;
+    background: #cccdce;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin: 0px 10px;
+    border-radius: 5px;
+
+}
+.mid-content h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.mid-content h4 img{
+    width: 145px; 
+}
+.footer-last{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-row {
+    color: white;
+}
+.footer-row h5{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-row ul li{
+    font-size: 15px;
+}
+.last-section{
+    width: 1320px;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+.section-content{
+    width: 1320px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-rows{
+    color: white;
+    display: flex;
+}
+.section-rows h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.last-img i{
+    padding-left: 20px;
+}
+.float-img{
+    position: fixed;
+    bottom: 15px;
+    width: 124px;
+    height: 79px;
+    right: 0;
+}
+.float-img2 {
+    color: white;
+    background: purple;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 11px;
+    /* width: 124px;
+    height: 20px; */
+    right: 27px;
+    padding: 13px;
+}
+.float-img2 i{
+    font-size: 30px;
+}
+
+
