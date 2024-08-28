@@ -1,0 +1,158 @@
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .menu-content> ul> li{
+        display: none;
+    }
+    .menu-content2 {
+        display: none;
+    }
+    .menu{
+        max-width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .header-inner{
+        max-width: 93%;
+        margin-left: 5%;
+        margin-right: 4%;
+    }
+    .inner h3{
+        font-size: 35px;
+        padding-left: 10px;
+        
+    }
+    .inner h4{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 20px;
+        
+    }
+    .inner-img{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .inner-left{
+        max-width: 100%;
+    }
+    .inner-right{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-content h3{
+        font-size: 25px;
+    }
+    .para{
+        display: none;
+    }
+    .whatsapp{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+    .whatsapps{
+        display: flex;
+       flex-direction: column-reverse;  
+    }
+    .what-img{
+        max-width: 100%;
+    }
+    .what-img img{
+        max-width: 100%;
+        padding-left: 0px;
+        margin-bottom: 23px;
+        text-align: left;
+        
+    }
+    .fb{
+        padding-bottom: 60px;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        
+    }
+    .middle-left{
+        max-width: 100%;
+        padding-top: 10px;
+        padding-left: 20px;
+        
+    }
+    .middle-left h2{
+        font-size: 20px;
+    }
+    .middle-left p{
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .middle-right{
+        max-width: 100%;
+    }
+    .second-last{
+        margin-top: 20px;
+    }
+    .sl-left h3{
+        padding-left: 20px;
+        font-size: 14px;  
+        padding-bottom: 60px;
+    }
+    .hidden{
+        display: none;
+    }
+    .last-seccontent{
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .last-seccontent h3{
+        margin-left: 0px;
+    }
+    .last-seccontent h4{
+        font-size: 12px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        gap: 5px;
+        margin-bottom: 160px;
+    }
+    .logo2 img{
+        max-width: 100%;
+    }
+    .foot-row{
+        max-width: 100%;
+    }
+    .foot-row h3{
+        padding-top: 60px;
+        font-size: 12px;
+        color: #222;
+        font-weight: 400;
+    }
+    .footer-icons i{
+        margin-top: 20px;
+        padding: 9px;
+        font-size: 21px;
+    }
+    .footerrows{
+        padding-left: 15px;
+    }
+    .footerrows h3 {
+        font-size: 20px;
+        border-bottom: 1px solid rgba(70,90,105,.15);
+        font-weight: 400;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .footer-icons{
+        padding-bottom: 30px;
+    }
+    .footerrows ul li {
+        display: none;
+    }
+    .lastmeta{
+        display: none;
+    }
+    
+}
