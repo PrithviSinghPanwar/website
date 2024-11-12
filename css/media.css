@@ -1,0 +1,45 @@
+@media only screen and (max-width: 575px) {
+   
+    .header-inner{
+        max-width: 100%;
+    }
+    .Introduction-inner{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        
+    }
+    .menu{
+        margin-right: 20px;
+    }
+    .logo>img{
+        padding: 5px;
+        width: 120px !important;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .introcontent button {
+       display: flex;
+       margin: auto;
+    }
+    .our-work-inner{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer{
+        padding: 0px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+   
+}
+
+
+
+
